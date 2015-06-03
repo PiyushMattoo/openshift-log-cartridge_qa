@@ -11,8 +11,8 @@ License: Apache 2
 Categories:
  - service
  - logstash
-Website: https://github.com/PiyushMattoo/openshift-log-cartridge
-Source-Url: https://github.com/PiyushMattoo/openshift-log-cartridge.git
+Website: https://github.com/PiyushMattoo/openshift-log-cartridge_qa
+Source-Url: https://github.com/PiyushMattoo/openshift-log-cartridge_qa.git
 Help-Topics:
   "Developer Center": http://logstash.net/docs/1.4.2/
 Cart-Data:
