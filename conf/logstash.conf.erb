@@ -8,6 +8,9 @@ input {
 }
 
 filter {
+      mutate {
+		gsub => ['message', "\n", " "]
+	  }
       grok {
         match => [
              "message", "%{TIMESTAMP_ISO8601:time} %{LOGLEVEL:level} %{GREEDYDATA:logmessage}",
